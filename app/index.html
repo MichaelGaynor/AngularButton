@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hello, World</title>
+  <title>Like it!</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <h1>Hello, <i class="fa fa-globe"></i></h1>
   
+<div class="container" ng-controller="ThisController">
+  <h1>DO YOU LIKE IT?</h1>
+  <button ng-submit="clicked(click)">{{}}</button>
+</div>
+
   <script src="js/main.js"></script>
 </body>
 </html>
