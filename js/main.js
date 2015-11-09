@@ -1,5 +1,8 @@
-import $ from 'jquery';
-import _ from 'underscore';
-import moment from 'moment';
+import angular from 'angular';
 
-console.log('Hello, World');
+import ThisController from './ThisController';
+
+angular.module('moddy', [])
+
+
+.controller('ThisController', ThisController);

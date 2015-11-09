@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="moddy">
 <head>
   <title>Like it!</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -9,7 +9,9 @@
   
 <div class="container" ng-controller="ThisController">
   <h1>DO YOU LIKE IT?</h1>
-  <button ng-submit="clicked(click)">{{}}</button>
+  <form  ng-submit="clicked(click)">
+    <button>{{coolText}}</button>
+  </form>
 </div>
 
   <script src="js/main.js"></script>
