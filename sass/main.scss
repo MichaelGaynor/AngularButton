@@ -2,5 +2,18 @@
 // See Readme for a list of supported ones
 
 body {
-  background: #e2ebf3;
+  background: #272822;
+  background-image: url(http://www.netanimations.net/campfire-flames.gif);
+}
+
+.container{
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  background-color: #444442;
+  height: 150px;
+  h1{
+    margin: 40px 0;
+    color: #A1E402;
+  }
 }
