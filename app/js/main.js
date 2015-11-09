@@ -7,6 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 var ThisController = function ThisController($scope) {
 
   $scope.number = [];
+  $scope.coolText = "0 Likes";
 
   $scope.clicked = function (click) {
     var x = 1;

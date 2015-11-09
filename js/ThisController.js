@@ -1,6 +1,7 @@
 let ThisController = function($scope) {
   
   $scope.number = [];
+  $scope.coolText = "0 Likes";
 
   $scope.clicked = function(click) {
     let x = 1;
